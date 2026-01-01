@@ -1,5 +1,5 @@
 # VMSVFND
-Code for paper["***Viewpoint-sentiment guided multimodal short video fake news detection***"]
+Code for paper["***Listen To People’s Opinions: Viewpoint-sentiment guided multimodal short video fake news detection***"]
 
 ### Environment
 please refer to the file requirements.txt.
@@ -14,12 +14,7 @@ Pretrained bert-wwm can be downloaded [here](https://drive.google.com/file/d/1-2
 ```python
 python main.py
 ```
-### checkpoint
-we provide [checkpoints](https://drive.google.com/file/d/1dE4WG-fShnFMIwAKhGYGbZanlJ9b_svu/view?usp=drive_link) for comparison,and the model trained in the first stage[contrastive_model](https://drive.google.com/file/d/1WQXVMowZDmOE-s6mTz05ZCXEfRTGdZwU/view?usp=drive_link).
-Set the path in the test.py and use it:
-```python
-python test.py
-```
+
 ### Dataset
 The original dataset can be applied for [here](https://github.com/ICTMCG/FakeSV) 
 
